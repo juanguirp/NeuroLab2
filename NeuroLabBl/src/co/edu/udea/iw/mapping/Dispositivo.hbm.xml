@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="co.edu.udea.iw.dto.Dispositivo" table="tab_dispositivos">
+		<id name="id" type="integer">
+			<column name="dis_id" />
+			<generator class="assigned" />
+		</id>
+		<property name="tipoDispositivo" type="java.lang.String">
+			<column name="dis_tipo_dispositivo" length="20" not-null="true" />
+		</property>
+		<property name="disponible" type="boolean">
+			<column name="dis_disponible" not-null="true" />
+		</property>
+		<property name="especificaciones" type="java.lang.String">
+			<column name="dis_especificaciones" length="250" not-null="true" />
+		</property>
+		<many-to-one name="adminRegistrador" class="co.edu.udea.iw.dto.Administrador"
+			fetch="join">
+			<column name="dis_registrado_por" length="15" not-null="true" />
+		</many-to-one>
+		<property name="fechaRegistro" type="java.util.Date">
+			<column name="dis_fecha_registro" length="120" not-null="true" />
+		</property>
+	</class>
+</hibernate-mapping>

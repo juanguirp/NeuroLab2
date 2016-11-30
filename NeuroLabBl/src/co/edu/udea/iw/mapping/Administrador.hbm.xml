@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="co.edu.udea.iw.dto.Administrador" table="tab_administradores">
+		<id name="id" type="java.lang.String">
+			<column name="adm_id" length="15" />
+			<generator class="assigned" />
+		</id>
+		<property name="nombre" type="java.lang.String">
+			<column name="adm_nombre" length="30" not-null="true" />
+		</property>
+		<property name="apellidos" type="java.lang.String">
+			<column name="adm_apellidos" length="30" not-null="true" />
+		</property>
+		<property name="correo" type="java.lang.String">
+			<column name="adm_correo" length="120" not-null="true" />
+		</property>
+		<property name="contrasena" type="java.lang.String">
+			<column name="adm_contrasena" length="150" not-null="true" />
+		</property>
+	</class>
+</hibernate-mapping>

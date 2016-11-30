@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="co.edu.udea.iw.dto.SolicitudPrestamo" table="tab_solicitudes_prestamo">
+		<id name="id" type="integer">
+			<column name="sol_id" />
+			<generator class="assigned" />
+		</id>
+		<many-to-one name="dispositivoSolicitado" class="co.edu.udea.iw.dto.Dispositivo"
+			fetch="join">
+			<column name="sol_dispositivo_solicitado" not-null="true" />
+		</many-to-one>
+		<property name="fechaSolicitud" type="java.util.Date">
+			<column name="sol_fecha_solicitud" length="120" not-null="true" />
+		</property>
+		<many-to-one name="solicitante" class="co.edu.udea.iw.dto.Investigador"
+			fetch="join">
+			<column name="sol_solicitante" length="15" not-null="true" />
+		</many-to-one>
+		<many-to-one name="adminProcesador" class="co.edu.udea.iw.dto.Administrador"
+			fetch="join">
+			<column name="sol_procesada_por" length="15" not-null="true" />
+		</many-to-one>
+		<property name="respuesta" type="boolean">
+			<column name="sol_respuesta" not-null="true" />
+		</property>
+	</class>
+</hibernate-mapping>

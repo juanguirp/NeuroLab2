@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Inicie sesion en NeuroLab</title>
+<script type="text/javascript" src="recursos/js/angular.min.js"></script>
+<script type="text/javascript" src="recursos/js/angular-route.min.js"></script>
+<script type="text/javascript" src="recursos/js/angular-cookies.min.js"></script>
+</head>
+<body ng-app="loginUsuarios">
+
+	<div ng-controller="formularioLogin">
+
+		<label>Ingrese su nombre de usuario:</label> <input type="text"
+			ng-model="nombreUsuario" placeholder="Nombre de usuario"> <br>
+		<label>Ingrese su contrasena de usuario:</label> <input
+			type="password" ng-model="contrasenaUsuario" placeholder="Password">
+
+
+		<br>
+		<button ng-click="validarUsuario()">Iniciar sesion</button>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="co.edu.udea.iw.dto.Prestamo" table="tab_prestamos">
+		<id name="id" type="integer">
+			<column name="det_id" />
+			<generator class="assigned" />
+		</id>
+		<many-to-one name="solicitudAsociada" class="co.edu.udea.iw.dto.SolicitudPrestamo"
+			fetch="join">
+			<column name="det_solicitud_asociada" not-null="true" />
+		</many-to-one>
+		<property name="horaEntrega" type="java.util.Date">
+			<column name="det_hora_entrega" length="120" not-null="true" />
+		</property>
+		<property name="horaDevolucion" type="java.util.Date">
+			<column name="det_hora_devolucion" length="120" not-null="true" />
+		</property>
+		<property name="horasSolicitadas" type="integer">
+			<column name="det_horas_solicitadas" not-null="true" />
+		</property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/commons-codec-1.10-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/commons-codec-1.10-sources.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/commons-codec-1.10-tests.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/commons-codec-1.10-test-sources.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/hibernate3.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/slf4j-log4j12-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/spring-context-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/spring-orm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/spring-test-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/juangui/Github/NeuroLab/NeuroLabBl/recursos/bibliotecas/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
