@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Crear Investigador</title>
+<script src="../resources/js/angular.min.js"></script>
+<script src="../resources/js/angular-route.min.js"></script>
+<script src="../resources/js/investigadors.js"></script>
+</head>
+<body ng-app="investigador">
+	<div ng-controller ="investigador" class="container">
+		<form ng-submit="guardar()">
+			<label>Cedula</label>
+			<input type="text" ng-model="investigador.identificacion"/>
+			<br>
+			<label>Nombres</label>
+			<input type="text" ng-model="investigador.nombre"/>
+			<br>
+            <label>Apellidos</label>
+			<input type="text" ng-model="investigador.apellidos"/>
+			<br>
+            <label>Correo Electronico</label>
+			<input type="text" ng-model="investigador.correo"/>
+			<br>
+			<label>Contrase&#241;a</label>
+			<input type="text" ng-model="investigador.contrasena"/>
+			<br>
+			<input type="submit" value="Guardar"/>
+		</form>
+	</div>
+</body>
+</html>

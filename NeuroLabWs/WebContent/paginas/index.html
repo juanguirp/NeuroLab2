@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>NeuroLab</title>
-<script type="text/javascript" src="../resources/js/angular.min.js"></script>
-<script type="text/javascript" src="../resources/js/angular-cookies.min.js"></script>
-<script type="text/javascript" src="../resources/js/angular-route.min.js"></script>
-<script type="text/javascript" src="../resources/js/login.js"></script>
-<script type="text/javascript" src="../resources/js/solicitud.js"></script>
+	<meta charset="UTF-8">
+	<title>NeuroLab</title>
+	<script type="text/javascript" src="../resources/js/angular.min.js"></script>
+	<script type="text/javascript" src="../resources/js/angular-route.min.js"></script>
+	<script type="text/javascript" src="../resources/js/angular-cookies.min.js"></script>
+	<script type="text/javascript" src="../resources/js/login.js"></script>
+	<script type="text/javascript" src="../resources/js/solicitud.js"></script>
+	<script type="text/javascript" src="../resources/js/clientes.js"></script>
+	
+	<script type="text/javascript" src="../resources/js/responder.js"></script>
+	
 </head>
-<body ng-app="Login">
+<body ng-app="solicitudes">
+	<div>
+		<div>
+			<div>
+				<h1>NeuroLab</h1>
+				<ul>
+					<li><a href="#/inicioSesion">Iniciar Sesion</a></li>
+					<li><a href="#/enviarSolicitud">Hacer solicitud</a></li>
+					<li><a href="#/solicitudes">Listar Solicitudes</a></li>
+					<li><a href="http://localhost:8080/NeuroLabWs/final/paginas/index.html?#/" >Clientes????</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 	<div ng-view>
+	
 	
 	</div>
 </body>
